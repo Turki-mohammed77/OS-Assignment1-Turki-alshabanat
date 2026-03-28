@@ -32,18 +32,15 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
-
----
+Entry 1 - [March 20, 2026, 10:00 AM]
+What I did: Installed Git and created a GitHub account.
+Details:
+* Downloaded the latest version of Git for Windows.
+* Created a GitHub account using my university email.
+* Configured global username and email using the terminal.
+Challenges: The command git --version was not recognized initially.
+Solution: Re-ran the installer and made sure to check the box "Add Git to PATH."
+Time spent: 45 minutes
 
 ### Entry 2 - [Date and Time]
 **What I did**: 
