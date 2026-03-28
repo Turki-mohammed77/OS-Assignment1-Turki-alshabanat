@@ -42,16 +42,15 @@ Challenges: The command git --version was not recognized initially.
 Solution: Re-ran the installer and made sure to check the box "Add Git to PATH."
 Time spent: 45 minutes
 
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Entry 2 - [March 20, 2026, 11:30 AM]
+What I did: Installed VS Code and Java Development Kit (JDK).
+Details:
+* Installed Visual Studio Code as the primary IDE.
+* Installed the "Extension Pack for Java" by Microsoft.
+* Set up JDK 17 to ensure the environment can compile the scheduler code.
+Challenges: VS Code was showing a "Java Home not found" error.
+Solution: Manually pointed the java.jdt.ls.java.home setting in VS Code to the JDK installation folder.
+Time spent: 40 minutes 
 
 ---
 
