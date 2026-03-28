@@ -54,16 +54,16 @@ Time spent: 40 minutes
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Entry 3 - [March 21, 2026, 1:00 PM]
+What I did: Integrated GitHub with VS Code and cloned the project.
+Details:
+* Authenticated my GitHub account within VS Code.
+* Forked the starter repository for the CPU Scheduler.
+* Cloned the repository locally to begin editing the code.
+* Updated the Student ID in the main method.
+Challenges: SSH key authentication failed when trying to push the first commit.
+Solution: Switched to HTTPS authentication using a Personal Access Token (PAT).
+Time spent: 1 hour
 
 ---
 
