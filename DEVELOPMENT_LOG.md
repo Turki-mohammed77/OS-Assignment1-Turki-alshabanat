@@ -79,16 +79,16 @@ Time spent: 1.5 hours
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Entry 5 - [March 23, 2026, 5:00 PM]
+What I did: Implemented Feature 3 (Waiting Time Metrics and Summary Table).
+Details:
+* Added fields to track totalWaitingTime and lastReadyTime for each process.
+* Created the updateWaitingTime() method to calculate duration spent in the queue.
+* Developed the displayWaitingTimeSummary() method to print a formatted table at the end of the simulation.
+* Calculated the Average Waiting Time for all completed processes.
+Challenges: The waiting time was showing as zero for some processes.
+Solution: Realized I wasn't updating the lastReadyTime when a process was re-added to the queue after its quantum expired; fixed this by calling setLastReadyTime() during re-entry.
+Time spent: 2 hours 
 
 ---
 
