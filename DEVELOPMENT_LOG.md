@@ -67,16 +67,15 @@ Time spent: 1 hour
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Entry 4 - [March 22, 2026, 3:30 PM]
+What I did: Implemented Feature 1 (Priority) and Feature 2 (Context Switch Counter).
+Details:
+* Added a priority field to the Process class and updated the constructor.
+* Integrated a static contextSwitchCount variable in the SchedulerSimulation class.
+* Modified the output messages to display the priority of each process when added to the queue.
+Challenges: Incrementing the context switch counter in the wrong place led to overcounting.
+Solution: Moved the increment logic to the point where the scheduler pulls a thread from the queue, right before currentThread.start().
+Time spent: 1.5 hours
 
 ---
 
